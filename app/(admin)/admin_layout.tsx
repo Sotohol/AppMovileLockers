@@ -22,6 +22,15 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
+
+      <Tabs.Screen
+        name="admin"
+        options={{
+          title: 'Administrador',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.fill.checkmark" color={color} />,
+        }}
+      />
+   
       <Tabs.Screen
         name="usuario"
         options={{
@@ -30,5 +39,7 @@ export default function TabLayout() {
         }}
       />
     </Tabs>
+
+
   );
 }

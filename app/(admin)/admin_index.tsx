@@ -6,6 +6,7 @@ import { Image } from 'expo-image';
 import { Link } from 'expo-router';
 import { StyleSheet, View } from 'react-native';
 
+
 export default function HomeScreen() {
  return (
  <ThemedView  style={[styles.background, { flex: 1 }]}>
